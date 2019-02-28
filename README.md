@@ -343,7 +343,7 @@ BlockScout is setup to export [Prometheus](https://prometheus.io/) metrics at `/
 ## Tracing
 
 Blockscout supports tracing via
-[Spandex](http://git@github.com:spandex-project/spandex.git). Each application
+[Spandex](http://https://github.com/spandex-project/spandex.git). Each application
 has its own tracer, that is configured internally to that application. In order
 to enable it, visit each application's `config/<env>.ex` and update its tracer
 configuration to change `disabled?: true` to `disabled?: false`. Do this for
